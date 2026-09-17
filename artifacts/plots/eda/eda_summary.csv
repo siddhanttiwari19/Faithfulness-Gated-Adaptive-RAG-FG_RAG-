@@ -1,0 +1,14 @@
+Metric,Value
+Total Samples,500
+Question Types,"bridge (404), comparison (96)"
+Difficulty Levels,"easy (0), medium (0), hard (500)"
+Mean Question Length (words),16.1
+Mean Answer Length (words),2.4
+Mean Context Length (words),906
+Mean Context Length (tokens),1200
+Mean Paragraphs per Question,9.9
+Mean Sentences per Question,41.6
+Mean Supporting Facts per Question,2.4
+Mean Supporting Docs per Question,2.0
+"Mean Chunks per Document (size=256, overlap=50)",6.3
+Total Chunks Generated,3175
