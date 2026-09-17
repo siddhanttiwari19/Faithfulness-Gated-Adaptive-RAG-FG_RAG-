@@ -15,7 +15,7 @@ class DatasetLoader:
         For MVP, we limit samples if max_samples is provided.
         """
         print(f"Loading HotpotQA (distractor) split: {split}...")
-        dataset = load_dataset("hotpot_qa", "distractor", split=split, cache_dir=self.cache_dir)
+        dataset = load_dataset("hotpotqa/hotpot_qa", "distractor", split=split, cache_dir=self.cache_dir, trust_remote_code=True)
         
         if max_samples:
             print(f"Limiting to {max_samples} samples.")
