@@ -1,0 +1,22 @@
+# FG-ARAG TODOs
+
+- [x] Complete Phase 0 by adding configs and tests structure.
+- [x] Create `__init__.py` files to make directories importable python modules.
+- [x] Write `.env.example` and load `python-dotenv`.
+- [x] Write `requirements.txt` and `pyproject.toml`.
+- [x] Implement `dataset_loader.py` for HotpotQA.
+- [x] Implement `cleaner.py` and `chunker.py`.
+- [x] Write unit tests for preprocessing.
+- [x] Implement `preprocessing/embedder.py` (BGE embeddings).
+- [x] Implement `retrieval/vector_store.py` (ChromaDB wrapper).
+- [x] Implement `preprocessing/bm25_indexer.py`.
+- [x] Write unit tests for embeddings and BM25.
+- [x] Implement `retrieval/hybrid.py`.
+- [x] Implement score normalization (min-max) for BM25 and Dense.
+- [x] Write unit tests for hybrid retrieval.
+- [x] Implement `generation/base.py` (BaseGenerator).
+- [x] Implement `generation/prompts.py`.
+- [x] Implement `generation/gemini_generator.py`.
+- [x] Write unit tests for generation.
+- [ ] Implement `pipeline/vanilla_rag.py`.
+- [ ] Write integration test for Vanilla RAG baseline.
