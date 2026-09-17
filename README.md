@@ -12,4 +12,4 @@ Query → Preprocessing → Hybrid Retrieval → Generator → Claim Decompositi
 3. Copy `.env.example` to `.env` and set `GEMINI_API_KEY`.
 
 ## Usage
-TBD.
+TBD .
