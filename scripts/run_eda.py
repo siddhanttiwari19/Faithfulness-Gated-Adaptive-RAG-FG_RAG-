@@ -1,7 +1,6 @@
 """
 FG-ARAG: Exploratory Data Analysis (EDA) on HotpotQA Distractor Dataset
-========================================================================
-Generates comprehensive visualizations and statistics for the MSE 1 viva.
+
 Saves all plots to artifacts/plots/eda/.
 
 Usage:
